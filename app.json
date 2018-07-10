@@ -17,6 +17,7 @@
 	"selectedColor": "#1890ff",
 	"backgroundColor": "#ffffff",
 	"list": [
+    {"pagePath": "pages/index/index", "text": "test"},
 		{"pagePath": "pages/found/found", "text": "发现"}, 
 		{"pagePath": "pages/user/user", "text": "我"}
 	]
