@@ -31,8 +31,87 @@
 .bc_green {background: green;width:100px; height: 100px;}
 .bc_red {background: red;width:100px; height: 100px;}
 .bc_blue {background: blue;width:100px; height: 100px;}
-.box-size {
+/* .box-size {
   width: 30%;
   height: 40px;
   line-height: 38px;
+  
+} */
+.pic-row {
+  width: 100%;
+  height: 30px;
+  padding: 5px 0 5px 0;
+  margin: 0 auto;
+}
+.menu-row {
+  width: 100%;
+  height: 30px;
+   padding: 5px 0 5px 0;  
+   margin: 0 auto; 
+  /* justify-content: center; */
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+}
+.box-size {
+  width: 20%;
+  /* height: 40px; */
+  line-height: 28px;
+  /* float: left; */
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+   margin: 0 auto; 
+  text-align: center;
+  border-radius: 4px;
+}
+/*  */
+ .box-row {
+  width: 100%;
+  height: 60px;
+   padding: 5px 0 5px 0;  
+   margin: 0 auto; 
+  /* justify-content: center; */
+  margin-top: 10px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+} 
+.box {
+    width: 20%;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+   margin: 0 auto; 
+  text-align: center;
+  border-radius: 4px;
+   /* display: inline-flex  */
+   
+}
+.small-box {
+  border: 1px #eee solid;
+   display: flex    
+}
+.tt {
+  background-color: black;
+}
+.yy {
+  background-color: yellow;
+}
+.t1 {
+  width: 20%;
+  height: 20px;
+  background-color: #eee;
+  display: inline-block;
+}
+.t2 {
+  width: 20%;
+  height: 20px;  
+  background-color: #000000;
+    display: inline-block;
+  /* display: inline-flex */
+}
+/*  */
+.common {
+  width: 60px;
+  height: 50px;
+  background-color: #eee
 }

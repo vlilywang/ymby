@@ -1,23 +1,45 @@
-<!-- <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <a href="/pages/home/home">aaa</a>
-  </view>
-</view> -->
 <view class="section">
-  <view class="section__title">flex-direction: row</view>
-  <view class="flex-wrp" style="flex-direction:row;">
-    <view class="flex-item box-size" style='border: 1px #000000'>1
-    </view>
-    <view class="flex-item box-size" style='border: 1px #000000'>2
-    </view> 
-    <view class="flex-item box-size" style='border: 1px #000000'>3
-    </view>
+  <view class='pic-row'>
+    lunb
+    <ul>
+      <li>
+        <img src="" />
+      </li>
+    </ul>
   </view>
+  <!--pic-row end  -->
+  <!-- <view class='menu-row'>
+     <view class="flex-item box-size">1
+    </view>
+    <view class="flex-item box-size">2
+    </view> 
+    <view class="flex-item box-size">3
+    </view>
+    <view class="flex-item box-size">4
+    </view> 
+  </view> -->
+  <!-- menu-row end -->
+   <!-- <view class='box-row'>
+    <view class='flex-item box'>
+      <view class='small-box'>
+            <view class='tt'>tt</view>
+            <view class='yy'>yy</view>
+      </view>
+      <view class='small-box'>bbb</view>  
+    </view>
+    <view class='flex-item box'>
+
+    </view>
+    <view class='flex-item box'> </view>
+  </view>  -->
+  <!-- box-row end -->
+  <!-- <view class='t1'>
+  </view>
+    <view class='t2'>
+  </view> -->
+  <a class="common" style="display: inline"> aaa</a>
+  <a class="common" style="display: inline-block"> aaa</a>
+  <a class="common" style="display: block"> aaa</a>
+  <a class="common" style="display: list-item"> aaa</a>
 </view>
+<!-- section end -->
